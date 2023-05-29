@@ -22,7 +22,7 @@ import java.util.concurrent.Executors;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
-    private static final String SERVER_IP = "192.168.100.105";  // Replace with the IP address of your Raspberry Pi
+    private static final String SERVER_IP = "0.0.0.0";  // Replace with the IP address of your Raspberry Pi
     private static final int SERVER_PORT = 5000;  // Choose a suitable port number
 
     private TextView tv;
